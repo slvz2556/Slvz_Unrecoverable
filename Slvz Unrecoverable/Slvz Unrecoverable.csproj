@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0-android</TargetFramework>
+    <RootNamespace>Slvz_Unrecoverable</RootNamespace>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationId>com.slvz.unrecoverable</ApplicationId>
+    <ApplicationVersion>2</ApplicationVersion>
+    <ApplicationDisplayVersion>1.1</ApplicationDisplayVersion>
+    <Authors>SLVZ</Authors>
+    <Company>SLVZ</Company>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Assets\Trash.slvz" />
+    <None Remove="Resources\drawable\btn_get_windows_app_style.xml" />
+    <None Remove="Resources\drawable\circle_shape_progressbar.xml" />
+    <None Remove="Resources\drawable\circular_progress_bar.xml" />
+    <None Remove="Resources\drawable\home_item_style.xml" />
+    <None Remove="Resources\drawable\ic_gem.png" />
+    <None Remove="Resources\drawable\ic_microsoft.png" />
+    <None Remove="Resources\drawable\ic_star.png" />
+    <None Remove="Resources\drawable\ic_web.png" />
+    <None Remove="Resources\drawable\img_cleaning.png" />
+    <None Remove="Resources\drawable\img_permission_animation_1.jpg" />
+    <None Remove="Resources\drawable\img_permission_animation_2.jpg" />
+    <None Remove="Resources\drawable\img_permission_animation_3.jpg" />
+    <None Remove="Resources\drawable\img_permission_animation_4.jpg" />
+    <None Remove="Resources\drawable\img_permission_animation_5.jpg" />
+    <None Remove="Resources\drawable\rounded_white_linear.xml" />
+    <None Remove="Resources\layout\after_clean_home_view.xml" />
+    <None Remove="Resources\layout\home_ask_question_view.xml" />
+    <None Remove="Resources\layout\home_cleaning_view.xml" />
+    <None Remove="Resources\layout\home_default_view.xml" />
+    <None Remove="Resources\layout\home_layout.xml" />
+    <None Remove="Resources\layout\permission_layout.xml" />
+    <None Remove="Resources\layout\splashscreen_layout.xml" />
+    <None Remove="Resources\mipmap\ic_logo.png" />
+    <None Remove="Resources\mipmap\ic_slvz.png" />
+    <None Remove="Resources\mipmap\logo.png" />
+    <None Remove="Resources\values\colors.xml" />
+    <None Remove="Resources\values\ic_launcher_background.xml" />
+    <None Remove="Resources\values\strings.xml" />
+    <None Remove="Resources\values\styles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.AndroidX.Core" Version="1.9.0.1" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+  </ItemGroup>
+</Project>

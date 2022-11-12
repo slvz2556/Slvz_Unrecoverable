@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:visibility="gone"
+    android:background="#000"
+    android:id="@+id/li_after_clean_home_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"        
+        android:background="@drawable/rounded_white_linear"
+        android:layout_height="wrap_content">
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/li_rate_after_clean_home_view"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="Rate me"
+                android:textStyle="bold"
+                android:textSize="7pt"
+                android:textColor="#00349a"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_height="50dp"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/img_star1_after_clean_home_view"
+                    android:src="@drawable/ic_star"
+                    android:layout_height="50dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/img_star2_after_clean_home_view"
+                    android:src="@drawable/ic_star"
+                    android:layout_height="50dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/img_star3_after_clean_home_view"
+                    android:src="@drawable/ic_star"
+                    android:layout_height="50dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/img_star4_after_clean_home_view"
+                    android:src="@drawable/ic_star"
+                    android:layout_height="50dp"/>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/img_star5_after_clean_home_view"
+                    android:src="@drawable/ic_star"
+                    android:layout_height="50dp"/>
+
+            </LinearLayout>
+            
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp"     
+            android:layout_marginBottom="25dp"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            >
+        
+            <ImageView
+                android:layout_width="80dp"
+                android:src="@drawable/ic_microsoft"                
+                android:layout_height="80dp"/>
+        
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+            
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Get windows application"
+                    android:textStyle="bold"
+                    android:textSize="7pt"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Make your hard drives or removable dirves unrevoverable on your PC"
+                    android:textSize="6pt"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"
+                    android:layout_height="wrap_content"/>
+            
+            </LinearLayout>
+
+            <Button
+                android:layout_width="60dp"                
+                android:textSize="7pt"
+                android:layout_height="40dp"
+                android:id="@+id/btn_get_windows_app_after_clean_home_view"
+                android:background="@drawable/btn_get_windows_app_style"
+                android:textColor="#00349a"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Get"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+        
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:id="@+id/re_close_after_clean_home_view"
+                android:layout_marginBottom="25dp"
+            >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Close"
+                    android:textSize="8pt"
+                    android:textColor="#000"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+        
+        </LinearLayout>
+
+    
+    </LinearLayout>
+
+</LinearLayout>

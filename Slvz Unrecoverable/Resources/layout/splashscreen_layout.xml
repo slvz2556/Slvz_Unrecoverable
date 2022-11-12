@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"        
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    
+        <ImageView
+            android:layout_marginTop="-50dp"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@mipmap/ic_logo"/>
+    
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Unrecoverable"
+            android:textColor="#007baf"
+            android:textSize="12pt"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_height="match_parent">
+    
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:gravity="center_horizontal">
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="30dp"
+                android:src="@mipmap/ic_slvz"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

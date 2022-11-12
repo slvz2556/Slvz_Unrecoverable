@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:src="@mipmap/ic_logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:text="Permission"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:text="Application needs storage permission to do some stuffs and make your phone unrecoverable\n\nApplication won't work without this permission\n\nHere is the tutorial"
+        android:textSize="7pt"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+    
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:maxWidth="300dp"
+            android:id="@+id/img_permission"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center_horizontal"
+        >
+
+        <Button
+            android:layout_width="150dp"
+            android:background="#006FFF"
+            android:text="Get permission"
+            android:textColor="#fff"
+            android:id="@+id/btn_permission_layout"
+            android:layout_height="40dp"></Button>
+    
+    </RelativeLayout>
+
+</LinearLayout>

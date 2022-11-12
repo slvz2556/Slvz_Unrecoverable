@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:visibility="gone"
+    android:id="@+id/li_home_ask_question_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_white_linear"
+        android:layout_height="wrap_content">
+    
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="8pt"
+            android:textColor="#000"
+            android:id="@+id/lbl_home_ask_question_view"
+            android:layout_marginTop="20dp"/>
+    
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:gravity="right"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="40dp"
+                android:text="No"
+                android:layout_marginRight="5dp"
+                android:textSize="8pt"
+                android:background="#006FFF"
+                android:textColor="#fff"
+                android:id="@+id/btn_no_home_ask_question_view"/>
+        
+        
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:text="Yes"
+                android:textSize="7pt"
+                android:background="#fff"
+                android:textColor="#000"
+                android:id="@+id/btn_yes_home_ask_question_view"/>               
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

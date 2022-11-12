@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:visibility="gone"
+    android:id="@+id/li_home_cleaning_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:gravity="center"
+        android:layout_height="250dp"
+        >
+
+        <ProgressBar
+            android:id="@+id/prg_home_cleaning_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"                
+            android:indeterminate="false"
+            android:progressDrawable="@drawable/circular_progress_bar"
+            android:background="@drawable/circle_shape_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="33" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="33%"
+                android:id="@+id/lbl_progress_home_cleaning_view"
+                android:textSize="15pt"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text=""
+            android:id="@+id/lbl_status_home_cleaning_view"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:textColor="#000"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="12GB free of 120GB"
+        android:id="@+id/lbl_info_home_cleaning_view"
+        android:textSize="7pt"
+        android:textColor="#000"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:background="#006FFF"
+        android:text="Cancel"
+        android:textColor="#fff"
+        android:textSize="7pt"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btn_cancel_home_cleaning_view"
+        android:layout_height="40dp"></Button>
+
+</LinearLayout>
